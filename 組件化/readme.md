@@ -1,5 +1,7 @@
 <h1>組件化</h1>
 
+<h4>以TodoList為例</h4>
+
 App.js
 ```bash
 import React,{Component} from 'react';
