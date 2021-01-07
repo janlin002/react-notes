@@ -41,7 +41,12 @@ Proptypes:使用PropTypes進行型別檢查
 defaultProps:可為組件增加默認props,一般用於props未賦值,但不能為null的情況
 ```
 
-function component 轉換成 class component
+<h1>props,state,render關係</h1>
+
+當 props,state 更改時，render一定會重新執行<br>
+當父組件的render被運行時，子組件的render一樣會被運行
+
+<h1>function component 轉換成 class component</h1>
 
 ```bash
 1.加入 render()
