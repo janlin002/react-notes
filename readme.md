@@ -6,6 +6,7 @@ cd todolist
 npm start
 ```
 (目前版本有點問題，還在找解法中...)
+->目前webpack版本不合適，降為4.44.2版就可以了
 
 <h1>React 環境建置</h1>
 
