@@ -39,6 +39,9 @@ npm start
 
 ![生命週期](https://ithelp.ithome.com.tw/upload/images/20181203/20112494N2SZZRYeMV.png)
 
+<h1>Fragment</h1>
+解決component只能render()一個element的問題
+
 <h1>Proptypes vs defaultProps</h1>
 
 ```bash
