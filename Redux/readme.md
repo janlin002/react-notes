@@ -33,7 +33,17 @@ import {createStore} from 'redux';
 import reducer from './reducer';
 
 const store = createStore(reducer);
-export store
+export default store
+```
+
+```bash
+取得store的數據
+App.js
+import Store from './store';
+constructor(props){
+    super(props);
+    this.state = store.getStore(); //store數據綁定
+}
 ```
 
 <h4>Reducers</h4>
