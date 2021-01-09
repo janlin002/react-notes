@@ -1,6 +1,6 @@
 <h1>Redux</h1>
 
-Reducers + Flux
+![lifecircle](https://mdimg.wxwenku.com/getimg/ccdf080c7af7e8a10e9b88444af98393461258747dab79fb801805e11763c28eda23f64fa3fd1ebbf7a1f071f9833c42.jpg)
 
 <h4>Redux環境建立</h4>
 
@@ -21,9 +21,9 @@ npm install --save-dev redux-devtools
 ```
 
 <h4>React Component</h4>
-
+畫面
 <h4>Action Creater</h4>
-
+告知的行為
 <h4>Store</h4>
 
 ```bash
@@ -59,5 +59,5 @@ export default (state = defaultState,action)=>{
 
 
 
-![lifecircle](https://img-blog.csdn.net/20181005205138574?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlbGxveW9uZ3dlaQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
 
