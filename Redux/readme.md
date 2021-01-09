@@ -21,6 +21,8 @@ npm install --save-dev redux-devtools
 ```
 [好文分享](https://www.mdeditor.tw/pl/2Fqz/zh-tw)
 
+[redux vs react-redux](https://segmentfault.com/a/1190000011473973)
+
 <h4>React Component</h4>
 畫面
 <h4>Action Creater</h4>
