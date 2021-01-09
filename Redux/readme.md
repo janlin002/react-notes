@@ -19,6 +19,7 @@ React-Redux是為了串連 React 跟 Redux;
 npm install --save react-redux
 npm install --save-dev redux-devtools
 ```
+[好文分享](https://www.mdeditor.tw/pl/2Fqz/zh-tw)
 
 <h4>React Component</h4>
 畫面
