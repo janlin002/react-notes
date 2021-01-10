@@ -3,7 +3,7 @@
 <h4>用意</h4>
 方便測試，管理action
 
-<h4>步驟<h4>
+<h4>步驟</h4>
 
 1.建立一個 actionTypes.js 的資料夾<br>
 
@@ -32,7 +32,7 @@ const action = {
 
 5.reducer 的 action 也須一併修改<br>
 
-6. 完成<br>
+6.完成<br>
 
 
 [參考文章](https://ithelp.ithome.com.tw/articles/10250728)
