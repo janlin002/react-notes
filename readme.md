@@ -35,9 +35,6 @@ npm start
 
 [參考文章](https://askie.today/react-setting-cdn-and-creatreactapp/)
 
-<h1>Fragment</h1>
-解決component只能render()一個element的問題
-
 <h1>Proptypes vs defaultProps</h1>
 
 ```bash

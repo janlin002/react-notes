@@ -3,6 +3,8 @@
 
 [大神筆記](https://medium.com/coding-hot-pot/react-lifecycle-%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F-a48683ae3922)
 
+[進階思考](https://5xruby.tw/posts/react-16-lifecycle-methods/)
+
 <h2>initialization(初始化)</h2>
 
 <h4>setup props and state</h4>
