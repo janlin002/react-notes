@@ -54,14 +54,6 @@ defaultProps:可為組件增加默認props,一般用於props未賦值,但不能�
 當 props,state 更改時，render一定會重新執行<br>
 當父組件的render被運行時，子組件的render一樣會被運行
 
-<h1>function component 轉換成 class component</h1>
-
-```bash
-1.加入 render()
-2.function 內容班到 render() 中
-3.將 props 改成 this.props
-4.刪除 function 宣告
-```
 <h1>TodoList</h1>
 
 ```bash
