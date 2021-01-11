@@ -15,3 +15,4 @@ class有this,function沒有
 ```
 
 [參考文章](https://ithelp.ithome.com.tw/articles/10234746)
+[官方參考文章](https://zh-hant.reactjs.org/docs/state-and-lifecycle.html)

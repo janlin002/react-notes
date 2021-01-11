@@ -35,10 +35,6 @@ npm start
 
 [參考文章](https://askie.today/react-setting-cdn-and-creatreactapp/)
 
-<h1>React生命週期</h1>
-
-![生命週期](https://ithelp.ithome.com.tw/upload/images/20181203/20112494N2SZZRYeMV.png)
-
 <h1>Fragment</h1>
 解決component只能render()一個element的問題
 
@@ -54,69 +50,3 @@ defaultProps:可為組件增加默認props,一般用於props未賦值,但不能�
 當 props,state 更改時，render一定會重新執行<br>
 當父組件的render被運行時，子組件的render一樣會被運行
 
-<h1>TodoList</h1>
-
-```bash
-import React,{Component} from 'react';
-
-class App extends Component{
-
-  constructor(props){
-    super(props);
-    this.state={
-      inputValue:'',
-      list:[]
-    }
-  }
-  render(){
-    return(
-      <div>
-        <input 
-        //input的值
-        value={this.state.inputValue}
-        //當輸入後的變化
-        onChange={this.handleInputChange.bind(this)}
-        />
-        <button onClick={this.handleBtnClick.bind(this)}>
-          提交
-        </button>
-        <ul>
-          {
-            this.state.list.map((item,index)=>{
-              return(
-                <li key={index} onClick={this.handleItemDelete.bind(this,index)}>{item}</li>
-              ) 
-            })
-          }
-        </ul>
-      </div>
-    )
-  }
-  //畫面綁定
-  handleInputChange(e){
-    this.setState({
-      inputValue : e.target.value
-    })
-  }
-  //點擊新增事件
-  handleBtnClick(){
-    this.setState({
-      list:[...this.state.list,this.state.inputValue],
-      //list:[先前的數組,input內的值]
-      inputValue:''
-    })
-  }
-  //點擊li刪除事件
-  handleItemDelete(index){
-    // console.log(index);
-    const list = [...this.state.list];
-    list.splice(index,1);
-    this.setState({
-      list:list
-    })
-
-  }
-}
-
-export default App;//執行App
-```
