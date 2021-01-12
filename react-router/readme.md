@@ -1,8 +1,12 @@
 <h2>React路由</h2>
 
+[官網](https://reactrouter.com/web/api/Redirect)
+
 [react-router(上)](https://ithelp.ithome.com.tw/articles/10226056)
 
 [react-router(下)](https://ithelp.ithome.com.tw/articles/10226370)
+
+[Router初探](https://ithelp.ithome.com.tw/articles/10247735)
 
 <h2>文檔</h2>
 
@@ -23,7 +27,7 @@
 <h2>安裝</h2>
 
 ```bash
-npm install --save react-router
+npm install --save react-router-dom
 ```
 
 ```bash
