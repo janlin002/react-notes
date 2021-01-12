@@ -1,3 +1,7 @@
+<h2>學習資源</h2>
+
+[資源分享](https://github.com/janlin002/react-notes/blob/master/%E8%B3%87%E6%BA%90%E5%88%86%E4%BA%AB.md)
+
 <h2>Create React App</h2>
 
 ```bash
@@ -35,15 +39,7 @@ npm start
 
 [參考文章](https://askie.today/react-setting-cdn-and-creatreactapp/)
 
-<h1>Proptypes vs defaultProps</h1>
 
-```bash
-Proptypes:使用PropTypes進行型別檢查
-defaultProps:可為組件增加默認props,一般用於props未賦值,但不能為null的情況
-```
 
-<h1>props,state,render關係</h1>
 
-當 props,state 更改時，render一定會重新執行<br>
-當父組件的render被運行時，子組件的render一樣會被運行
 
