@@ -12,6 +12,14 @@
 
 [Github中文版翻譯](https://github.com/react-translate-team/react-router-CN)
 
+<h2>影音版</h2>
+
+[技術胖](https://www.bilibili.com/video/BV1Z4411f7T5?from=search&seid=16845280384785881034)
+
+[技術胖文檔](https://jspang.com/detailed?id=49) -- 可搭配上面的影片
+
+
+
 <h2>安裝</h2>
 
 ```bash
