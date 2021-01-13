@@ -7,3 +7,5 @@ yarn add bootstrap
 index.js
 import 'bootstrap/dist/css/bootstrap.css';
 ```
+
+[官網](https://www.html.cn/create-react-app/docs/adding-bootstrap/)
