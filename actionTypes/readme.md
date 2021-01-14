@@ -5,7 +5,7 @@
 
 <h4>步驟</h4>
 
-1.建立一個 actionTypes.js 的資料夾<br>
+1.建立一個 ./store/actionTypes.js 的資料夾<br>
 
 2.把 action 事件載入<br>
 
