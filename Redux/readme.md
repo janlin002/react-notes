@@ -53,7 +53,9 @@ constructor(props){
 
 ```bash
 創建 store/reducer.js
-const defaultState = {}
+const defaultState = {
+    //如同state(資料庫)
+}
 
 export default (state = defaultState,action)=>{
     return state
