@@ -42,7 +42,7 @@ export default store
 ```bash
 取得store的數據
 App.js
-import Store from './store';
+import store from './store';
 constructor(props){
     super(props);
     this.state = store.getStore(); //store數據綁定
@@ -73,7 +73,7 @@ class App extends Component{
   constructor(props){
     super(props);
     this.state = store.getState();
-    console.log(this.state)
+    store.subscribe(this.storeChange); //訂閱
   }
   render(){
     return (
