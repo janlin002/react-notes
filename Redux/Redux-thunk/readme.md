@@ -1,5 +1,7 @@
 <h2>Redux-thunk</h2>
 
+<h2>用處</h2>
+
 <h2>環境配置</h2>
 
 ```bash
