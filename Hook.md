@@ -82,8 +82,9 @@ useState 的替代方案。它接收一个形如 (state, action) => newState 的
 import React,{useReducer} from 'react';
 
 const App = () =>{
-   const initialState = { count: 0 };
-
+   const initialState = { count: 0 };//初始值
+   
+   //條件式
   const reducer = (state,action)=>{
     switch(action.type){
       case 'increment':
@@ -94,6 +95,7 @@ const App = () =>{
         throw new Error()
     }
   }
+  //畫面
   const [state,dispatch] = useReducer(reducer,initialState);
   return(
     <div>
