@@ -44,8 +44,10 @@ const [目前state的值,可以更新state的function] = useState(回傳的值)
   })
 ```
 
+<h3>用useEffect取代生命週期</h3>
+
 ```bash
-useEffect = componentDidMount + componentDidUpdate + componentWillUnmount
+useEffect() = componentDidMount + componentDidUpdate + componentWillUnmount
 ```
 
 <h4>無需清除的 Effect</h4>
