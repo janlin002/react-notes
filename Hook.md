@@ -1,6 +1,14 @@
 <h1>Hook</h1>
 <h3>Hook 是 React 16.8 中增加的新功能。它讓你不必寫 class 就能使用 state 以及其他 React 的功能。</h3>
 
+<h3>影音資源</h3>
+
+[技術胖](https://www.bilibili.com/video/BV1y4411Q7yH?from=search&seid=15129246938121288056)
+
+[合一大師](https://www.bilibili.com/video/BV1ca4y1Y7R1?p=3)
+
+[老菜鳥](https://www.bilibili.com/video/BV1VE411w7wi?from=search&seid=15129246938121288056)
+
 <h3>那...為什麼要Hook?</h3>
 
 [技術文章](https://www.mdeditor.tw/pl/pG7r/zh-tw)
