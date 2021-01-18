@@ -31,7 +31,7 @@ const [目前state的值,可以更新state的function] = useState(回傳的值)
 
 [官網](https://zh-hant.reactjs.org/docs/hooks-state.html)
 
-<h3>Effect Hook</h3>
+<h3>useEffect Hook</h3>
 
 將在每次 render() 後，執行!
 
