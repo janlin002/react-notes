@@ -36,6 +36,15 @@ const [目前state的值,可以更新state的function] = useState(回傳的值)
 將在每次 render() 後，執行!
 
 ```bash
+  useEffect(()=>{
+      //組件掛載
+    return()=>{
+      //組件卸載
+    }
+  })
+```
+
+```bash
 useEffect = componentDidMount + componentDidUpdate + componentWillUnmount
 ```
 
