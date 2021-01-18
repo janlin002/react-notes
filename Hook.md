@@ -107,6 +107,14 @@ const App = () =>{
 }
 export default App
 ```
+<h3>useMemo</h3>
+
+他的目的是用來「避免重複進行複雜耗時的計算」
+
+<h3>useCallback</h3>
+
+useCallback 其實就等於回傳一個 function 的 useMemo<br>
+主要目的是避免在 component 內部宣告的 function
 
 <h3>打造自己的Hook</h3>
 
