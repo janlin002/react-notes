@@ -59,8 +59,9 @@ useEffect = componentDidMount + componentDidUpdate + componentWillUnmount
 
 [官網](https://zh-hant.reactjs.org/docs/hooks-custom.html)
 
+<h3>常見的hook</h3>
+
 ```bash
-常見hook
 useState:取代當前的state
 useEffect:每次render時，執行一次
 useContext:
