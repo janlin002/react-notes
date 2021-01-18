@@ -74,6 +74,36 @@ useEffect() = componentDidMount + componentDidUpdate + componentWillUnmount
 
 [官網](https://zh-hant.reactjs.org/docs/hooks-rules.html)
 
+<h3>useReduer</h3>
+
+```bash
+import React,{useReducer} from 'react';
+
+const App = () =>{
+   const initialState = { count: 0 };
+
+  const reducer = (state,action)=>{
+    switch(action.type){
+      case 'increment':
+      return {count:state.count+1};
+      case 'decrement':
+      return {count:state.count-1};
+      default:
+        throw new Error()
+    }
+  }
+  const [state,dispatch] = useReducer(reducer,initialState);
+  return(
+    <div>
+      <reducer>{state.count}</reducer>
+      <button onClick={()=>dispatch({type:'increment'})}>+</button>
+      <button onClick={()=>dispatch({type:'decrement'})}>-</button>
+    </div>
+  )
+}
+export default App
+```
+
 <h3>打造自己的Hook</h3>
 
 [官網](https://zh-hant.reactjs.org/docs/hooks-custom.html)
