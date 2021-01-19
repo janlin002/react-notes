@@ -6,7 +6,11 @@
 
 npm install --save react-redux
 
-<h3>Connect</h3>
-
-
 <h3>Provider</h3>
+接收store作為props
+
+<h3>Connect</h3>
+方便組件取得store中的state
+
+
+
