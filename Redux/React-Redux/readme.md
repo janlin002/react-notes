@@ -10,7 +10,17 @@ npm install --save react-redux
 接收store作為props
 
 <h3>Connect</h3>
-方便組件取得store中的state
+方便組件取得store中的state<br>
+
+const(要接受數組的函式,要發送action的函式)(放入要加強的組件)<br>
+
+```bash
+connect參數:
+mapStateToProps
+mapDispatchToProps
+mergeProps
+options
+```
 
 
 
