@@ -6,10 +6,10 @@
 
 npm install --save react-redux
 
-<h3>Provider</h3>
+<h3>Provider -- 提供者</h3>
 接收store作為props
 
-<h3>Connect</h3>
+<h3>Connect -- 接收者</h3>
 方便組件取得store中的state<br>
 
 const(要接受數組的函式,要發送action的函式)(放入要加強的組件)<br>
