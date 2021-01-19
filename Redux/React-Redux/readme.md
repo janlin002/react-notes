@@ -16,8 +16,8 @@ const(要接受數組的函式,要發送action的函式)(放入要加強的組�
 
 ```bash
 connect參數:
-mapStateToProps
-mapDispatchToProps
+mapStateToProps - 傳state
+mapDispatchToProps - 傳actions
 mergeProps
 options
 ```
