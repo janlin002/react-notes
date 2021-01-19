@@ -19,7 +19,13 @@ Hook 是 JavaScript function<br>
 1.只在 最上層 呼叫 Hook。不要在迴圈、判斷式、或是嵌套 function 中呼叫 Hook。<br>
 2.只在 React function component 呼叫 Hook。不要在一般 JavaScript function 中呼叫 Hook。
 
-<h3>State Hook</h3>
+<h3>Hook規則</h3>
+<h5>只在最上層呼叫 Hook</h5>
+<h5>只在 React Function 中呼叫 Hook</h5>
+
+[官網](https://zh-hant.reactjs.org/docs/hooks-rules.html)
+
+<h3>useState</h3>
 
 function 中的 [useState] 如同 class 中的 [this.state];<br>
 
@@ -30,6 +36,10 @@ const [目前state的值,可以更新state的function] = useState(回傳的值)
 ```
 
 [官網](https://zh-hant.reactjs.org/docs/hooks-state.html)
+
+<h3>useContext</h3>
+
+[參考文件](https://medium.com/enjoy-life-enjoy-coding/react-%E5%9C%A8-hooks-%E4%B8%AD%E4%BB%A5-usecontext-%E8%88%87-usereducer-%E5%AF%A6%E7%8F%BE-redux-3a8aa403d9e4)
 
 <h3>useEffect Hook</h3>
 
@@ -67,12 +77,6 @@ useEffect() = componentDidMount + componentDidUpdate + componentWillUnmount
 用意：我們可能想要設定對某些外部資料來源的 [subscription]。在這種情況下，請務必進行清除，以免造成 memory leak！
 
 [官網](https://zh-hant.reactjs.org/docs/hooks-effect.html)
-
-<h3>Hook規則</h3>
-<h5>只在最上層呼叫 Hook</h5>
-<h5>只在 React Function 中呼叫 Hook</h5>
-
-[官網](https://zh-hant.reactjs.org/docs/hooks-rules.html)
 
 <h3>useReduer</h3>
 
