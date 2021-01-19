@@ -12,7 +12,9 @@ npm install --save react-redux
 <h3>Connect -- 接收者</h3>
 方便組件取得store中的state<br>
 
-const(要接受數組的函式,要發送action的函式)(放入要加強的組件)<br>
+```bash
+connect(要接受數組的函式,要發送action的函式)(放入要加強的組件)
+```
 
 ```bash
 connect參數:
