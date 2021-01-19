@@ -122,11 +122,11 @@ useCallback 其實就等於回傳一個 function 的 useMemo<br>
 
 <h3>useSelector</h3>
 
-這個方法允許我們直接從 Redux store 中的狀態提取數據到元件中。透過 useSelector 可以取代掉 mapStateToProps 的使用方式
+這個方法允許我們直接從 Redux store 中的狀態提取數據到元件中。透過 useSelector 可以取代掉 mapStateToProps 的使用方式 -->(取代掉 mapStateToProps , mapDispatchToProps )
 
 <h3>useDispatch</h3>
 
-可以用來取代掉 mapStateToDispatch
+可以用來取代掉 mapStateToDispatch -->(因為砍掉 mapDispatchToProps ,所以改用 useDispatch 來觸發Reducer)
 
 <h3>打造自己的Hook</h3>
 
