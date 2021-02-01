@@ -123,6 +123,8 @@ export default (state = defaultState,action)=>{
 }
 ```
 
+[compose](https://chentsulin.github.io/redux/docs/api/compose.html)
+
 
 
 
