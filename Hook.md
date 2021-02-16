@@ -13,6 +13,8 @@
 
 [技術文章](https://www.mdeditor.tw/pl/pG7r/zh-tw)
 
+[Medium](https://snh90100.medium.com/%E5%B8%B8%E8%A6%8B%E7%9A%84%E5%B9%BE%E5%80%8B-react-hooks-%E4%BB%8B%E7%B4%B9-usestate-useeffect-useref-40c9acd0cc4c)
+
 <h3>Hook簡介</h3>
 Hook 是 JavaScript function<br>
 
