@@ -115,7 +115,7 @@ export default App
 ```
 <h3>useMemo</h3>
 
-他的目的是用來「避免重複進行複雜耗時的計算」
+他的目的是用來「避免重複進行複雜耗時的計算」,保存計算結果
 
 <h3>useCallback</h3>
 
