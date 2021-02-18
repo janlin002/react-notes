@@ -125,6 +125,10 @@ useMemo 會在組件渲染時（rendering）被呼叫，因此不應該在這個
 useCallback 其實就等於回傳一個 function 的 useMemo<br>
 主要目的是避免在 component 內部宣告的 function
 
+```bash
+useCallback(fn, deps) 等同於 useMemo(() => fn, deps)
+```
+
 <h3>useRef</h3>
 
 存放可變的值
