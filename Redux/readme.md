@@ -28,7 +28,9 @@ npm install --save-dev redux-devtools
 <h4>Action Creater</h4>
 告知的行為
 <h4>Store</h4>
+
 只會有一個store
+
 ```bash
 創建store
 建立 store/index.js
