@@ -1,7 +1,5 @@
 <h1>Redux</h1>
 
-![lifecircle](https://mdimg.wxwenku.com/getimg/ccdf080c7af7e8a10e9b88444af98393461258747dab79fb801805e11763c28eda23f64fa3fd1ebbf7a1f071f9833c42.jpg)
-
 ![清晰版](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4b8a429c6db8412e9b31e6983da75b0a~tplv-k3u1fbpfcp-zoom-1.image)
 
 <h4>Redux環境建立</h4>
@@ -52,6 +50,8 @@ constructor(props){
 ```
 
 <h4>Reducers</h4>
+
+只能接受state,但不能改變state
 
 ```bash
 創建 store/reducer.js
