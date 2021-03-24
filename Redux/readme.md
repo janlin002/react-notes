@@ -29,7 +29,8 @@ npm install --save-dev redux-devtools
 告知的行為
 <h4>Store</h4>
 
-只會有一個store
+只會有一個store<br>
+一定是純函數（給訂一定的輸入，一定會有輸出，且不會有副作用）
 
 ```bash
 創建store
