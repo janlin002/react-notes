@@ -95,6 +95,10 @@ useEffect() = componentDidMount + componentDidUpdate + componentWillUnmount
 useState 的替代方案。它接收一个形如 (state, action) => newState 的 reducer，并返回当前的 state 以及与其配套的 dispatch 方法。
 
 ```bash
+const [state, dispatch] = useReducer(reducer, initialState);
+```
+
+```bash
 import React,{useReducer} from 'react';
 
 const App = () =>{
