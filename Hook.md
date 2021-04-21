@@ -52,7 +52,7 @@ const [回傳的值,可以更新state的function] = useState(預設值)
 [部落格](https://iamian.cc/reactcontextapi/)
 
 <h3>useEffect</h3>
-
+通常使用於發送api請求<br>
 將在每次 render() 後，執行! 
 
 ```bash
