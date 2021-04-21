@@ -53,7 +53,7 @@ const [回傳的值,可以更新state的function] = useState(預設值)
 
 <h3>useEffect</h3>
 
-將在每次 render() 後，執行!
+將在每次 render() 後，執行! (useEffect 內的 function 會在組件渲染完(render)後被呼叫)
 
 ```bash
   useEffect(()=>{
