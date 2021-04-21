@@ -58,6 +58,11 @@ const [回傳的值,可以更新state的function] = useState(預設值)
 ```bash
 useEffect 內的 function 會在組件渲染完(render)後被呼叫
 ```
+```bash
+useEffect(<didUpdate>, [dependencies])
+dependencies = 它是一個陣列，只要每次重新渲染後 dependencies 內的元素沒有改變，任何 useEffect 裡面的函式就不會被執行!
+=> 組件渲染完後，如果 dependencies 有改變，才會呼叫 useEffect 內的 function
+```
 
 ```bash
   useEffect(()=>{
