@@ -1,6 +1,10 @@
 
 <h1>React生命週期</h1>
 
+<h1>圖示</h1>
+
+![react lifecycle](https://1.bp.blogspot.com/-8j8J7Jqjw4Y/Xp6xMLBYYkI/AAAAAAAACKA/txHamD7iK9YT--AFX9dPMgjhkl_dW46dwCLcBGAsYHQ/s1600/lifecycle.png)
+
 [大神筆記](https://medium.com/coding-hot-pot/react-lifecycle-%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F-a48683ae3922)
 
 [進階思考](https://5xruby.tw/posts/react-16-lifecycle-methods/)
