@@ -27,7 +27,7 @@ npm install --save-dev redux-devtools
 畫面
 <h4>Action Creater</h4>
 告知的行為
-<h2>Store</h2>
+<h1>Store</h1>
 
 只會有一個store<br>
 一定是純函數（給訂一定的輸入，一定會有輸出，且不會有副作用）
@@ -52,7 +52,7 @@ constructor(props){
 }
 ```
 
-<h2>Reducers</h2>
+<h1>Reducers</h1>
 
 只能接受state,但不能改變state
 
