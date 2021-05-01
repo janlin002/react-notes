@@ -63,7 +63,14 @@ const defaultState = {
 }
 
 export default (state = defaultState,action)=>{
-    return state
+    switch (action.type) {
+        case value:
+            
+            break;
+    
+        default:
+            break;
+    }
 }
 ```
 ＝＝＝＝＝＝
