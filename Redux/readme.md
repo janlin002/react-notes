@@ -89,6 +89,21 @@ export default (state = defaultState,action)=>{
     }
 }
 ```
+<h1>Action集中管理 - actionTypes</h1>
+
+需先建立一個資料夾 - actionTypes.js<br>
+將action 的 type 加入其中
+
+```bash
+export const ADD_TODOITEM = 'ADD_TODOITEM'
+export const REMOVE_TODOITEM = 'REMOVE_TODOITEM'
+```
+在需要用到的 Component 中引入
+
+```bash
+import { ADD_TODOITEM, REMOVE_TODOITEM } from './actionTypes'
+```
+需更改原先action的type(reducer也可更改)
 
 [compose](https://chentsulin.github.io/redux/docs/api/compose.html)
 
