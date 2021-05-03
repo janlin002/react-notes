@@ -23,6 +23,13 @@ npm install --save-dev redux-devtools
 
 [redux vs react-redux](https://segmentfault.com/a/1190000011473973)
 
+<h2>整體流程(未包含 react-redux)</h2>
+
+```bash
+store.dispatch(); 將action傳到reducer
+store.getState(); store綁定component
+```
+
 <h4>React Component</h4>
 畫面
 <h4>Action Creater</h4>
