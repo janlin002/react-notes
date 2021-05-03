@@ -89,7 +89,8 @@ export default (state = defaultState,action)=>{
     }
 }
 ```
-<h1>Action集中管理 - actionTypes</h1>
+<h1>Action集中管理</h1>
+<h1>方法一</h1>
 
 需先建立一個資料夾 - actionTypes.js<br>
 將action 的 type 加入其中
@@ -104,6 +105,44 @@ export const REMOVE_TODOITEM = 'REMOVE_TODOITEM'
 import { ADD_TODOITEM, REMOVE_TODOITEM } from './actionTypes'
 ```
 需更改原先action的type(reducer也可更改)
+
+<h1>方法二</h1>
+
+需先建立一個資料夾 - actionCreator<br>
+導入方法一的 actionTypes.js資料夾,並且寫下action的function
+
+```bash
+import { ADD_TODOITEM, REMOVE_TODOITEM } from './actionTypes'
+
+export const addToDoItem = () =>{
+    return {
+        type: ADD_TODOITEM
+    }
+}
+```
+
+回到需導入 action 的 Component 導入 新的function
+
+```bash
+import { addToDoItem } from './actionCreator'
+```
+
+並到需要觸發action的function內進行導入
+
+```bash
+addAction = () =>{
+    const addTodoItem = addTodoItem();
+    store.dispatch(addTodoItem); // store.dispatch(addTodoItem())
+}
+```
+
+
+
+
+
+
+
+
 
 [compose](https://chentsulin.github.io/redux/docs/api/compose.html)
 
