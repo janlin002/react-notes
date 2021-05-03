@@ -27,7 +27,7 @@ npm install --save-dev redux-devtools
 
 ```bash
 store.dispatch(); 將action傳到reducer
-store.getState(); store綁定component
+store.getState(); store綁定component, 取得reducer中的資料
 ```
 
 <h4>React Component</h4>
