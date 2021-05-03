@@ -28,12 +28,21 @@ npm install --save-dev redux-devtools
 ```bash
 store.dispatch(); 將action傳到reducer
 store.getState(); store綁定component, 取得reducer中的資料
+=> this.state = store.getState(); // 綁定state
 ```
 
 <h4>React Component</h4>
 畫面
-<h4>Action Creater</h4>
+<h1>Action</h1>
 告知的行為
+
+```bash
+const action = {
+    type: 'SEND_ACTION',
+}
+store.dispatch(action) // 把action傳給store
+```
+
 <h1>Store</h1>
 
 只會有一個store<br>
