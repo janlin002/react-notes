@@ -80,65 +80,6 @@ export default (state = defaultState,action)=>{
     }
 }
 ```
-＝＝＝＝＝＝
-<h4>完整程式碼</h4>
-
-```bash
-import React ,{Component} from 'react';
-import { Input } from 'antd';
-import { Button } from 'antd';
-import { List, Divider } from 'antd';
-import store from './store';
-
-class App extends Component{
-  constructor(props){
-    super(props);
-    this.state = store.getState();
-    store.subscribe(this.storeChange); //訂閱
-  }
-  render(){
-    return (
-      <div>
-          <Input placeholder={this.state.inputValue} style={{width:'300px'}} />
-          <Button type="primary">submit</Button>
-          <List
-            size="small"
-            style={{width:'300px'}}
-            bordered
-            dataSource={this.state.list}
-            renderItem={item => <List.Item>{item}</List.Item>}
-          />
-      </div>
-      
-    )
-  }
-}
-
-export default App;
-```
-
-index.js
-
-```bash
-import { createStore } from 'redux';
-import reducer from './reducer';
-const store = createStore(reducer);
-
-export default store;
-```
-
-reducer.js
-
-```bash
-const defaultState = {
-    inputValue:'',
-    list:[]
-}
-
-export default (state = defaultState,action)=>{
-    return state;
-}
-```
 
 [compose](https://chentsulin.github.io/redux/docs/api/compose.html)
 
