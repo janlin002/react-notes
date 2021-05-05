@@ -2,9 +2,11 @@
 
 目的:程式優化<br>
 
-<h3>環境:</h3>
+<h3>DownLoad</h3>
 
-npm install --save react-redux
+```bash
+npm install react-redux --save
+```
 
 <h3>Provider -- 提供者</h3>
 可以使你整個APP都接收到Store中的數據<br>
