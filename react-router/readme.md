@@ -6,7 +6,7 @@
 
 [react-router(下)](https://ithelp.ithome.com.tw/articles/10226370)
 
-[Router初探](https://ithelp.ithome.com.tw/articles/10247735)
+[Router 初探](https://ithelp.ithome.com.tw/articles/10247735)
 
 [react-router-dom](https://medium.com/%E6%89%8B%E5%AF%AB%E7%AD%86%E8%A8%98/a-little-bit-of-react-router-dom-e5b809fcb127)
 
@@ -16,7 +16,7 @@
 
 [入門實戰-Github](https://github.com/kdchang/reactjs101/blob/master/Ch05/react-router-introduction.md)
 
-[Github中文版翻譯](https://github.com/react-translate-team/react-router-CN)
+[Github 中文版翻譯](https://github.com/react-translate-team/react-router-CN)
 
 <h2>影音版</h2>
 
@@ -24,23 +24,25 @@
 
 [技術胖文檔](https://jspang.com/detailed?id=49) -- 可搭配上面的影片
 
-
-
 <h2>安裝</h2>
 
 ```bash
 npm install --save react-router-dom
 ```
 
-```bash
-// 使用 ES6 的轉譯器，如 babel
-import { Router, Route, Link } from 'react-router'
+<h2>React-Router 使用</h2>
 
-// 不使用 ES6 的轉譯器
-var ReactRouter = require('react-router')
-var Router = ReactRouter.Router
-var Route = ReactRouter.Route
-var Link = ReactRouter.Link
+```bash
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
+<Router>
+    <Link to="/">xxx</Link> /主要Link設置
+    <Link to="/xxx">xxx</Link>
+    <Switch>
+        <Route path="/" exact component={xxx}></Route> // Link連結Component
+        <Route path="/xxx" exact component={xxx}></Route>
+    </Switch>
+</Router>
 ```
 
 <h2>react-router vs react-router-dom</h2>
@@ -49,5 +51,4 @@ var Link = ReactRouter.Link
 
 [Github issue](https://github.com/mrdulin/blog/issues/42)
 
-react-router-dom比react-router多了 BrowserRouter、 HashRouter、Link、NavLink;<br>
-
+react-router-dom 比 react-router 多了 BrowserRouter、 HashRouter、Link、NavLink;<br>
