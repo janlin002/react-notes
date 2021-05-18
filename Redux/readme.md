@@ -29,6 +29,7 @@ npm install --save-dev redux-devtools
 store.dispatch(); 將action傳到reducer
 store.getState(); store綁定component, 取得reducer中的資料
 => this.state = store.getState(); // 綁定state
+this.setState(store.getState()); //監聽state變化
 ```
 
 <h4>React Component</h4>
