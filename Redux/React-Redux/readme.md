@@ -36,6 +36,14 @@ const mapStateToProps = state => ({
 
 {this.props.name} // 可用props調用 reducer中的函數
 ```
+連接component和mapStateToProps = connect
+
+```bash
+import { connect } from 'react-redux'
+
+const Title = connect(mapStateToProps)(Component)
+```
+
 
 <h4>2.mapDispatchToProps</h4>
 將 action 作為 props 綁到自己的函式中
