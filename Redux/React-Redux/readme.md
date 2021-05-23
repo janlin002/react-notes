@@ -26,9 +26,15 @@ connect(要接受數組的函式,要發送action的函式)(放入要加強的組
 這個函式允許我們將 store 中的數據作為 props 綁到指定的組件上
 
 ```bash
+const initState = {
+    name: 'Jack',
+}
+
 const mapStateToProps = state => ({
     name: state.name
 })
+
+{this.props.name} // 可用props調用 reducer中的函數
 ```
 
 <h4>2.mapDispatchToProps</h4>
