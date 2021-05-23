@@ -13,6 +13,26 @@ npm install react-redux --save
 接收store作為props<br>
 需包覆在最外層
 
+```bash
+//再最外層的index.js加入Provider
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+import { Provider } from "react-redux"; // 1.
+import store from "./src/store";  // 2.
+
+import App from "./src/components/app";
+import "./src/styles/index.scss";
+
+ReactDOM.render(
+  <Provider store={store}>  { /* 將store作為props傳遞給其他component */ }
+    <App />
+  </Provider>,
+  document.getElementById("app")
+);
+```
+
 <h3>Connect -- 接收者</h3>
 組件跟Store進行綁定<br>
 方便組件取得store中的state<br>
