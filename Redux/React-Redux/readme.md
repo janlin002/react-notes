@@ -24,6 +24,13 @@ connect(要接受數組的函式,要發送action的函式)(放入要加強的組
 
 <h4>1.mapStateToProps</h4>
 這個函式允許我們將 store 中的數據作為 props 綁到指定的組件上
+
+```bash
+const mapStateToProps = state => ({
+    name: state.name
+})
+```
+
 <h4>2.mapDispatchToProps</h4>
 將 action 作為 props 綁到自己的函式中
 <h4>3.mergeProps</h4>
