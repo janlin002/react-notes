@@ -18,6 +18,7 @@ npm install react-redux --save
 方便組件取得store中的state<br>
 
 ```bash
+import { connect } from 'react-redux'
 connect(要接受數組的函式,要發送action的函式)(放入要加強的組件)
 ```
 <h3>connect參數:</h3>
