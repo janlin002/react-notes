@@ -63,6 +63,8 @@ const mapStateToProps = state => ({
 import { connect } from 'react-redux'
 
 const Title = connect(mapStateToProps)(Component)
+
+export default Title;
 ```
 
 
