@@ -22,7 +22,7 @@ import ReactDOM from "react-dom";
 import { Provider } from "react-redux"; // 1.
 import store from "./src/store";  // 2.
 
-import App from "./";
+import App from "./App";
 
 ReactDOM.render(
   <Provider store={store}>  { /* 將store作為props傳遞給其他component */ }
