@@ -23,7 +23,6 @@ import { Provider } from "react-redux"; // 1.
 import store from "./src/store";  // 2.
 
 import App from "./src/components/app";
-import "./src/styles/index.scss";
 
 ReactDOM.render(
   <Provider store={store}>  { /* 將store作為props傳遞給其他component */ }
@@ -39,7 +38,8 @@ ReactDOM.render(
 
 ```bash
 import { connect } from 'react-redux'
-connect(要接受數組的函式,要發送action的函式)(放入要加強的組件)
+connect(要接受數組的函式)(要發送action的函式)(放入要加強的組件)
+ex.connect(mapStateToProps)(Component)
 ```
 <h3>connect參數:</h3>
 
