@@ -7,7 +7,7 @@
 
 import React, { useState , createContext } from 'react';
 
-const CountContext = createContext()
+const CountContext = React.createContext()
 
 function Example(){
     const [ count , setCount ] = useState(0);
