@@ -24,7 +24,3 @@ Hook 是 JavaScript function<br>
 <h3>Hook規則</h3>
 <h5>只在最上層呼叫 Hook</h5>
 <h5>只在 React Function 中呼叫 Hook</h5>
-
-[官網](https://zh-hant.reactjs.org/docs/hooks-rules.html)
- 
-[官方網站](https://zh-hant.reactjs.org/docs/hooks-intro.html)
