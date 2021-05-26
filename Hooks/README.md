@@ -103,25 +103,5 @@ useCallback(fn, deps) 等同於 useMemo(() => fn, deps)
 <h3>useDispatch</h3>
 
 可以用來取代掉 mapStateToDispatch -->(因為砍掉 mapDispatchToProps ,所以改用 useDispatch 來觸發Reducer)
-
-<h3>打造自己的Hook</h3>
-
-[官網](https://zh-hant.reactjs.org/docs/hooks-custom.html)
-
-<h3>常見的hook</h3>
-
-```bash
-useState:取代當前的state
-useEffect:每次render時，執行一次
-useContext:
-少見hook
-useReducer:
-useCallback:
-useMemo:
-useRef:
-useImperativeHandle:
-useLayoutEffect:
-useDebugValue:
-```
  
 [官方網站](https://zh-hant.reactjs.org/docs/hooks-intro.html)
