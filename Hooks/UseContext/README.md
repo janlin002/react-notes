@@ -1,5 +1,7 @@
 <h3>useContext</h3>
 
+[參考文章](https://medium.com/hannah-lin/react-hook-%E7%AD%86%E8%A8%98-usecontext-4bc289976847)
+
 是用來接收與父 Component 傳遞資料時的 Hooks ，用途和 Props 相同<br>
 
 ```bash
