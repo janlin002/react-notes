@@ -9,7 +9,8 @@
 
 import React, { useState , createContext } from 'react';
 
-const CountContext = React.createContext()
+export const CountContext = createContext()
+//export const CountContext = React.createContext() 不需引入createContext
 
 function Example(){
     const [ count , setCount ] = useState(0);
@@ -30,6 +31,7 @@ export default Example;
 
 //子層: useContext(Abc)接收
 import React, { useContext } from 'react';
+import { CountContext } from './父組件';
 
 function Counter() {
     const count = useContext(CountContext); //接收父層的value
