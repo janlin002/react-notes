@@ -90,7 +90,7 @@ export const reducer = (state, action) =>{
 export const Color = props =>{ (把value傳到props.children中)
     const [ color, dispatch ] = useReducer(reducer, 'blue');
     return (
-        <changeColor.Provider value={color, dispatch}>
+        <changeColor.Provider value={{color, dispatch}}>
             {props.children}
         </changeColor.Provider>
     )
