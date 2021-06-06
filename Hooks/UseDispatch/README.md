@@ -1,5 +1,7 @@
 <h3>useDispatch</h3>
 
+[文章](https://ithelp.ithome.com.tw/articles/10251966)
+
 ```bash
 const dispatch = useDispatch();
 
