@@ -1,5 +1,7 @@
 <h3>useSelector</h3>
 
+[文章](https://ithelp.ithome.com.tw/articles/10251966)
+
 ```bash
 const 取得的變數 ＝ useSelector(state => state.count)
 const counter = useSelector(state => state.counter)
