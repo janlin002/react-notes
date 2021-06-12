@@ -1,1 +1,1 @@
-[文章](https://ithelp.ithome.com.tw/articles/10228423)
+[文章](https://medium.com/@aaa24295234/%E5%B0%87create-react-app%E4%BD%88%E7%BD%B2%E5%88%B0github-pages-1a7ba468861a)
