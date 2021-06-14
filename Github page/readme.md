@@ -11,7 +11,7 @@ npm install --save-dev gh-pages
 <h3>在package.json內加入homepage</h3>
 
 ```bash
-"homepage": "http://your-username.github.io/myapp",
+"homepage": "http://github名稱.github.io/專案名稱",
 ```
 
 <h3>在package.json的script中加入：</h3>
