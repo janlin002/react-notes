@@ -1,9 +1,14 @@
 <h1>非同步</h1>
 
-<h3>sync vs async</h3>
+## sync vs async
 
-sync: 同步<br>
-async: 非同步
+Await 等待
+
+Async 非同步
+
+sync: 同步<
+
+[推薦文章](https://wcc723.github.io/javascript/2017/12/30/javascript-async-await/)
 
 <h3>async</h3>
 
