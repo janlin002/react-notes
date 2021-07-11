@@ -6,7 +6,7 @@ Await 等待
 
 Async 非同步
 
-sync: 同步<
+sync 同步
 
 [推薦文章](https://wcc723.github.io/javascript/2017/12/30/javascript-async-await/)
 
