@@ -1,6 +1,6 @@
 <h1>非同步</h1>
 
-## sync vs async
+## Await vs Async vs sync
 
 Await 等待
 
