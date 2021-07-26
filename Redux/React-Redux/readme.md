@@ -2,9 +2,13 @@
 
 目的:程式優化<br>
 
+(可刪除 this.state = store.getState())
+
 <h3>DownLoad</h3>
 
-```bash
+[NPM](https://www.npmjs.com/package/react-redux)
+
+```javascript
 npm install react-redux --save
 ```
 
@@ -13,7 +17,7 @@ npm install react-redux --save
 接收store作為props<br>
 需包覆在最外層
 
-```bash
+```javascript
 //再最外層的index.js加入Provider
 
 import React from "react";
@@ -32,21 +36,21 @@ ReactDOM.render(
 );
 ```
 
-<h3>Connect -- 接收者</h3>
+### Connect -- 接收者
 組件跟Store進行綁定<br>
 方便組件取得store中的state<br>
 
-```bash
+```javascript
 import { connect } from 'react-redux'
 connect(要接受數組的函式)(要發送action的函式)(放入要加強的組件)
 ex.connect(mapStateToProps)(Component)
 ```
-<h3>connect參數:</h3>
+## connect參數:
 
 <h4>1.mapStateToProps</h4>
 這個函式允許我們將 store 中的數據作為 props 綁到指定的組件上
 
-```bash
+```javascript
 const initState = {
     name: 'Jack',
 }
@@ -59,7 +63,7 @@ const mapStateToProps = state => ({
 ```
 連接component和mapStateToProps = connect
 
-```bash
+```javascript
 import { connect } from 'react-redux'
 
 const Title = connect(mapStateToProps)(Component)
