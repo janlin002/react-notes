@@ -6,6 +6,8 @@
 
 [Yup](https://formik.org/docs/tutorial#schema-validation-with-yup)
 
+[推薦文章](https://www.smashingmagazine.com/2020/10/react-validation-formik-yup/)
+
 ## 基礎功能
 
 - formik: 表單建立
