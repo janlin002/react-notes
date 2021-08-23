@@ -4,7 +4,7 @@
 
 [官方網站](https://formatjs.io/docs/getting-started/installation/)
 
-[如何使用React-intl](https://andyyou.github.io/2019/07/03/react-intl-get-started/)
+<a href="https://andyyou.github.io/2019/07/03/react-intl-get-started/" target="_blank">如何使用React-intl</a>
 
 ### 基礎環境設置
 
