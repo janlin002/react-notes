@@ -8,6 +8,8 @@
 
 [推薦文章](https://www.smashingmagazine.com/2020/10/react-validation-formik-yup/)
 
+[掘金](https://juejin.cn/post/6844903776105529351)
+
 推: [Formik & Yup 官網](https://formik.org/docs/tutorial#schema-validation-with-yup)
 
 ## 基礎功能
